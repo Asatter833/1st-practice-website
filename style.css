@@ -1,28 +1,109 @@
-body{
+*{
     margin: 0;
+    padding: 0;
+}
+
+body{
     font-family: 'Poppins', sans-serif;
 }
 section{
-    height: 500px;
+    height: 100vh;
 }
 .top-banner{
+    background-position: relative;
     background-image: url("images/header-bg.png");
     background-repeat: no-repeat;
+    background-size: auto;
+    padding: 0;
+    
+}
+.middle-banner{
+    background-position: relative;
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .half-width{
     width: 40%;
     float: left;
     margin-left: 5%;
     padding-left: 2%;
+    text-align: left;
+    min-height: 10em;
+    padding-top: 5em;
 }
-.half-width img{
-    width: 100%;
+
+.half-width img{    
+    max-width: 100%;
+    max-height: 100%;
+}
+p{
+    font-size: 15px;
 }
 h1{
-    font-size: 50px;
+    font-size: 60px;
     font-weight: 700;
-    color: deeppink;
+    color: #ec4c7a;
 }
 h2{
+    font-size: 40px;
     font-weight: 300;
+}
+.button{
+    padding: 11px 35px;
+    margin-top: 15px;
+    background-image: linear-gradient(90deg, #ec5093, #ec4c7a);
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    color: whitesmoke;
+    font-size: 15px;
+}
+.column{
+    float: left;
+    width: 33.33%;
+    padding: 0;
+}
+.row {
+    display: flex;
+  }
+.work-text{
+    text-align: center;
+    padding: 40px;
+}
+.work-banner{
+    background-position: relative;
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.client-text{
+    text-align: center;
+}
+h4{
+    font-weight: 300;
+    color: gray;
+}
+.multiline{
+    white-space: pre-wrap;
+    text-align: center;
+}
+.client{
+    background-position: relative;
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    text-align: center;
+}
+.button-contact{
+    padding: 11px 35px;
+    margin-top: 15px;
+    background-image: linear-gradient(90deg, #ec5093, #ec4c7a);
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    color: whitesmoke;
+    font-size: 15px;
 }
