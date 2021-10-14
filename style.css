@@ -11,7 +11,7 @@ section{
 }
 .top-banner{
     background-position: relative;
-    background-image: url("images/header-bg.PNG");
+    background-image: url("images/header-bg.png");
     background-repeat: no-repeat;
     background-size: auto;
     padding: 0;
@@ -19,7 +19,7 @@ section{
 }
 .middle-banner{
     background-position: relative;
-    background-image: url("images/biography-bg.PNG");
+    background-image: url("images/biography-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -73,7 +73,7 @@ h2{
 }
 .work-banner{
     background-position: relative;
-    background-image: url("images/latest-work-bg.PNG");
+    background-image: url("images/latest-work-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -90,7 +90,7 @@ h4{
 }
 .client{
     background-position: relative;
-    background-image: url("images/footer-bg.PNG");
+    background-image: url("images/footer-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
